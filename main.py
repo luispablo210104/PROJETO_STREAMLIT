@@ -21,5 +21,5 @@ st.write(botao)
 linguagem = st.selectbox("Selecione a linguagem desejada!",df['Linguagem'].unique())
 
 if st.button('Filtrar'):
-    df.loc[df['Linguagem'] == linguagem]
+    df.loc[df['Linguagem'] == linguagem]]
 
